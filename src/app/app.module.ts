@@ -10,6 +10,7 @@ import { FooterComponent } from './landing-page/footer/footer.component';
 import { HeaderComponent } from './landing-page/header/header.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from "@angular/material/button";
 
 
 @NgModule({
@@ -23,6 +24,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatToolbarModule,
+    MatButtonModule,
     HttpClientModule,
     MatToolbarModule,
     BrowserAnimationsModule

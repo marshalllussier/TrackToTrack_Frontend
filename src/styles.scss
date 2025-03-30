@@ -21,11 +21,11 @@ $tour-tracker-warn: mat.define-palette(mat.$red-palette);
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
 $tour-tracker-theme: mat.define-light-theme((
-color: (
-primary: $tour-tracker-primary,
-          accent: $tour-tracker-accent,
-                   warn: $tour-tracker-warn,
-)
+  color: (
+    primary: $tour-tracker-primary,
+    accent: $tour-tracker-accent,
+    warn: $tour-tracker-warn,
+  )
 ));
 
 // Include theme styles for core and each component used in your app.
@@ -61,3 +61,10 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.error-snackbar {
+  background-color: #f44336; /* Red background for error */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
