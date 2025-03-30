@@ -1,0 +1,15 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 20px;
+  margin: 10px 0;
+}
+

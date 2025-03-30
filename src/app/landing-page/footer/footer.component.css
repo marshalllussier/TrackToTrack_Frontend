@@ -1,0 +1,10 @@
+.footer {
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  text-align: center;
+  font-family: GothamBold, serif;
+}
