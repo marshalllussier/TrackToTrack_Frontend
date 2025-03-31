@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import {ScrollService} from "../services/scroll.service";
+import {ScrollService} from "../../services/scroll.service";
 
 @Component({
   selector: 'app-landing-page',

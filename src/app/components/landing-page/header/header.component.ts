@@ -1,5 +1,5 @@
 import {Component, HostListener} from '@angular/core';
-import {ScrollService} from "../../services/scroll.service";
+import {ScrollService} from "../../../services/scroll.service";
 
 @Component({
   selector: 'app-header',

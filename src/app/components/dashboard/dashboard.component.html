@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>Hello, {{ username }}!</h2>
+  <div *ngIf="profilePicture">
+    <img [src]="profilePicture" alt="Profile Picture" class="user-profile-picture"/>
+  </div>
+
+  <h3>Your Top 30 Artists:</h3>
+  <ul>
+    <li *ngFor="let artist of topArtists; let i = index">
+      <div class="artist-card">
+        <span>#{{ i + 1 }} </span>
+        <img *ngIf="artist.profilePicture" [src]="artist.profilePicture" alt="{{ artist.name }}" class="artist-picture"/>
+        <div>
+          <strong>{{ artist.name }}</strong> - <span class="artist-id">({{ artist.spotifyId }})</span>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {LandingPageComponent} from "./landing-page/landing-page.component";
-import {DashboardComponent} from "./dashboard/dashboard.component";
+import {LandingPageComponent} from "./components/landing-page/landing-page.component";
+import {DashboardComponent} from "./components/dashboard/dashboard.component";
 import {AuthGuard} from "./utils/auth.guard";
 
 
